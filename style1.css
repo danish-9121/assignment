@@ -25,10 +25,6 @@
     width:129px;
 }
 
-
-
-
-
 .one-img{
     margin-top: 10%;
     padding-left: 60%;
@@ -42,11 +38,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* 
 img {
     border: 5px solid #555;
 } */
-
 
 .heading{
     margin-left: 20%;
@@ -94,23 +90,21 @@ img {
     border: double;
     /* background-color:  */
 }
+
 .item1{
     margin-left:10%;
     margin-right: 5%;
     padding-bottom: 15%;
-
-
 }
+
 .item2{
     margin-right: 5%;
-
-
 }
+
 .item3{
     margin-right: 5%;
-
-
 }
+
 .item4{
     margin-right: 10%;
 }

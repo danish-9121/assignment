@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="stylebts.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+
+    <style>
+      section{
+        padding: 60px 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <section> <!--Container class 12-->
+      <h3>Container class 12</h3>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg col-md-6 col-md-12">Hello</div>
+            <div class="col-lg col-md-6 col-md-12">Hello1</div>
+            <div class="col-lg col-md-6 col-md-12">Hello2</div>
+            <div class="col-lg col-md-6 col-md-12">Hello3</div>
+            <div class="col-lg col-md-6 col-md-12">Hello4</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section> <!--Grid, Column and Auto-Column-->
+      <h3>Grid, Column and Auto-Column</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg col-md-9 col-12"> <!--video 1 mei grid 12, then col-lg for automatic selection-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!
+          </div>
+
+          <div class="col-lg col-md-3 col-12">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section><!--Row column classes--> <!--lg,md,sm-->
+      <h3>Row column classes, lg,md,sm</h3>
+      <div class="container">
+        <div class="row row-cols-2 row-cols-lg-4"> <!--row-cols-2(For mobile screen),row-cols-lg-(For large screen)-->
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+          <div class="col col-lg-6"> <!--This will occupy the half section 6/12-->
+            <div class=" border bg-light">R column</div>
+          </div>
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class=" border bg-light">Row column</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section> <!--Gutters Classses in Bootstrap--><!--gx and gy-->
+      <h3>Gutters Classses in Bootstrap, gx and gy</h3>
+      <div class="container">
+        <div class="row gy-5 gx-lg-3"> <!--gx-2 is for right and left padding between (1 to 5),gx-lg-2 is for desktop-->
+                                      <!--gy-4 is for margin top other margin top will be seen except first row-->
+          <div class="col-lg-6" style="background:yellow"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleni3i
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!
+          </div>
+
+          <div class="col-lg-6" style="background:pink">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!
+          </div>
+
+          <div class="col-lg-6" style="background:green">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!
+          </div>
+
+          <div class="col-lg-6" style="background:red">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section><!--Text related class-->   <!--Text alignment, Text transform, Font weight, Font italic -->  
+      <h3>Text related class</h3>
+      <!--
+      (1)Text aligment class
+      text-start
+      text-center
+      text-end 
+      text-break (if a word is two much then text break will form a new line)
+        and between
+
+      (2)Text transform
+      text-uppercase
+      text-capitalize
+
+      (3)Font size
+      fs-1 2.5 rem
+      fs-2 2rem
+      fs-3 1.75rem
+      fs-4 1.5rem
+      fs-5 1rem
+
+      (4)Font weight and italics
+      fw-bold
+      fw-bolder
+      fw-normal
+      fw-lighter
+      fst-italic
+      fst-normal
+      -->
+
+      <h3>(1)Text aligment class</h3>
+      <div class="col-12 text-start text-lg-center"> <!--Text start, center, end-->
+        <p>Welcome to Wscubetech</p>
+      </div>
+
+      <div class="col-6 text-break"> <!--Text break-->
+        <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
+      </div>
+
+      <h3>(2)Text Transform</h3>
+      <div class="col-12 text-start text-lg-center text-uppercase"> <!--Text uppercase-->
+        <p>Welcome to Wscubetech</p>
+      </div>
+
+      <div class="col-12 text-start text-lg-center text-lowercase"> <!--Text lowercase-->
+        <p>Welcome to Wscubetech</p>
+      </div>
+
+      <div class="col-12 text-start text-lg-center text-capitalize"> <!--Text capitalize-->
+        <p>Welcome to Wscubetech</p>
+      </div>
+
+      <h3>(3)Font Size (fs-1 to fs-5)</h3>
+      <div class="col-12 text-start text-lg-center text-capitalize"> <!--Text capitalize-->
+        <p class="fs-1">Welcome to Wscubetech</p>
+      </div>
+
+      <h3>(4)Font weight and italic</h3>
+      <div class="col-12 text-start text-lg-center text-uppercase"> <!--Text capitalize-->
+        <p class="fs-1 fw-bold">Welcome to Wscubetech</p>
+      </div>
+
+      <div class="col-12 text-start text-lg-center text-uppercase"> <!--Text capitalize-->
+        <p class="fs-1 fw-bolder">Welcome to Wscubetech</p>
+      </div>
+
+      <div class="col-12 text-start text-lg-center text-uppercase"> <!--Text capitalize-->
+        <p class="fs-1 fw-normal">Welcome to Wscubetech</p>
+      </div>
+
+      <div class="col-12 text-start text-lg-center text-uppercase"> <!--Text capitalize-->
+        <p class="fs-1 fw-lighter">Welcome to Wscubetech</p>
+      </div>
+
+      <div class="col-12 text-start text-lg-center text-uppercase"> <!--Text capitalize-->
+        <p class="fs-1 fst-italic">Welcome to Wscubetech</p>
+      </div>
+
+      <div class="col-12 text-start text-lg-center text-uppercase"> <!--Text capitalize-->
+        <p class="fs-1 fst-normal">Welcome to Wscubetech</p>
+      </div>
+    </section>
+
+    <section><!--Margin and Padding-->
+      <!-- <p>p-1 .25rem 4px<br>
+      p-2 .5rem 8px<br>
+      p-3 1rem 16px<br>
+      p-4 1.5rem 24px<br>
+      p-5 3rem 48pxs<br></p> -->
+
+      <h1>Margin and Padding</h1>
+      <div class="col-lg-5">
+        <h3>padding auto</h3>
+        <p class="p-5" ><!--Padding 1 to 5-->Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+        voluptate fugit sit quia ut nobis voluptatem minus animi sed
+        temporibus facilis molestias minima assumenda natus impedit blanditiis
+        provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+        Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+        rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+        earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+        error accusantium a ipsa quas perferendis inventore consequuntur quod
+        nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+        molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+        quibusdam alias id explicabo!</p>
+      </div>
+
+      <div class="">
+        <h3>pt(padding top) and pb(padding bottom)</h3>
+        <p class="pt-4 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+    
+      <div class="">
+        <h3>ps(start) and pe(end) </h3>
+        <p class="ps-2 pe-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+        voluptate fugit sit quia ut nobis voluptatem minus animi sed
+        temporibus facilis molestias minima assumenda natus impedit blanditiis
+        provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+        Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+        rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+        earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+        error accusantium a ipsa quas perferendis inventore consequuntur quod
+        nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+        molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+        quibusdam alias id explicabo!</p>
+      </div>
+
+      <div class="">
+        <h3>px for right and left padding<br>py for top and bottom padding</h3>
+        <p class="px-4 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+        voluptate fugit sit quia ut nobis voluptatem minus animi sed
+        temporibus facilis molestias minima assumenda natus impedit blanditiis
+        provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+        Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+        rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+        earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+        error accusantium a ipsa quas perferendis inventore consequuntur quod
+        nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+        molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+        quibusdam alias id explicabo!</p>
+      </div>
+            
+      <div class="">
+        <h3>Margin auto</h3>
+        <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+        voluptate fugit sit quia ut nobis voluptatem minus animi sed
+        temporibus facilis molestias minima assumenda natus impedit blanditiis
+        provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+        Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+        rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+        earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+        error accusantium a ipsa quas perferendis inventore consequuntur quod
+        nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+        molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+        quibusdam alias id explicabo!</p>
+      </div>
+      
+      <div class="">
+        <h3>mt-Margin top, mb-Margin bottom, my-for top and bottom</h3>
+        <p class="mt-4 mb-4 my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+        voluptate fugit sit quia ut nobis voluptatem minus animi sed
+        temporibus facilis molestias minima assumenda natus impedit blanditiis
+        provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+        Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+        rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+        earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+        error accusantium a ipsa quas perferendis inventore consequuntur quod
+        nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+        molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+        quibusdam alias id explicabo!</p>
+      </div>          
+    </section>
+
+    <section> <!--Background and Gradients-->
+      <h3>Background and Gradients</h3>
+      <div class="container-fluid bg-primary bg-gradient">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+        voluptate fugit sit quia ut nobis voluptatem minus animi sed
+        temporibus facilis molestias minima assumenda natus impedit blanditiis
+        provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+        Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+        rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+        earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+        error accusantium a ipsa quas perferendis inventore consequuntur quod
+        nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+        molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+        qui
+      </div>
+    </section>
+
+    <section><!--Border and Border Radius-->
+
+      <h3>Border (top,bottom,start,end, Border color) and Border Radius</h3>
+      <div class="container-fluid bg-warning bg-gradient">
+        <div class="row">
+          <div class="col
+          "> 
+            <p class="pt-4 pb-5 border border-primary mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!</p>
+          </div>
+
+          <div class="col"> 
+            <p class="pt-4 pb-5 border-top mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!</p>
+          </div>
+
+          <div class="col"> 
+            <p class="pt-4 pb-5 border-start mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!</p>
+          </div>
+
+          <div class="col"> 
+            <p class="pt-4 pb-5 border-end mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!</p>
+          </div>
+
+          <div class="col"> 
+            <p class="pt-4 pb-5 border-bottom-0 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+            voluptate fugit sit quia ut nobis voluptatem minus animi sed
+            temporibus facilis molestias minima assumenda natus impedit blanditiis
+            provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+            Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+            rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+            earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+            error accusantium a ipsa quas perferendis inventore consequuntur quod
+            nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+            molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+            quibusdam alias id explicabo!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class=""> 
+        <h3>Border width</h3>
+        <p class="col-5 m-5 border border-info border-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+        voluptate fugit sit quia ut nobis voluptatem minus animi sed
+        temporibus facilis molestias minima assumenda natus impedit blanditiis
+        provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+        Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+        rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+        earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+        error accusantium a ipsa quas perferendis inventore consequuntur quod
+        nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+        molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+        quibusdam alias id explicabo!</p>
+      </div>
+
+      <div class="">
+        <!--
+        rounded
+        rounded-top
+        rounded-end
+        rounded-bottom
+        rounded-start
+        rounded-circle
+        rounded-pill
+        -->
+        <h3>Border Radius</h3>
+        <h3>rounded</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+
+      <div>
+        <h3>rounded-top</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+      
+      <div>
+        <h3>rounded-end</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+
+      <div>
+        <h3>rounded-bottom</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+
+      <div>
+        <h3>rounded-start</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+
+      <div>
+        <h3>rounded-circle</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded-circle" style="width:400px; height:400px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+
+      <div>
+        <h3>rounded pill</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded-pill ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+
+    </section>
+
+    <section> <!--Text Color --> <!--Border and text colors are same just use border-warning and text-warning -->
+      <h3>Text Color <br> Border and text colors are same just use border-warning and text-warning</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-log-12 text-center py-3">
+            <h2 class="text-warning">Welcome to Class</h2>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      </div>
+    </section>
+
+    <section> <!--Responsive Image--> <!--class="img-fluid"-->
+      <h3>Responsive Image use (class="img-fluid") (class="img-thumbnail") </h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 bg-warning">
+            <img src="img/cst.jpg" class="img-thumbnail">
+          </div>
+          <div class="col-lg-4 bg-warning">
+            <img src="img/cst.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-4 bg-warning">
+            <img src="img/cst.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Find at how many places fluid is used-->
+
+    <section> <!--Float & clear Classes-->
+      <h3>Float & clear Classes (instead display flex)</h3>
+      <h3>float-start<br>
+      float-end<br>
+      float-none<br>
+      clearfix<br></h3>
+      
+      <div class="container">
+        <div class="row">
+          <div class="border">
+            <div>
+              <input type="button" value="Read More" name="">
+            </div>
+            <div>
+              <input type="button" value="Read More" name="">
+            </div>
+
+            <br><br>
+            <div class="border">
+            <div class="float-lg-start float-none">
+              <input type="button" value="Read More" name="">
+            </div>
+            <div class="float-lg-end float-none">
+              <input type="button" value="Read More" name="">
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section> <!--Buttons-->
+      <h3>Buttons</h3>
+      <div class="text-center">
+        <a href="" class="btn btn-info">Read More</a><p>This anchor tag button</p>
+        <input type="button" class="btn btn-warning" value="Read More" name=""><p>normal button</p>
+        <input type="button" class="btn btn-outline-danger" value="Read More" name=""><p>Outline button</p>
+        <input type="button" class="btn btn-outline-success btn-lg" value="Read More" name=""><p>lg button</p>
+        <input type="button" class="btn btn-outline-secondary btn-sm" value="Read More" name=""><p>sm button</p>
+      </div>
+
+    </section>
+
+    <section> <!--Create Card Layout-->
+      <h3>Create Card Layout</h3>
+      <div class="container-fluid mt-5 mb-5">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-4">
+              <div class="card" style="width:18rem;">
+                <img src="img/cst.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Product 1</h5>
+                  <p class="card-text">Some quick example text to build on the card title 
+                  and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="col-lg-4">
+                <div class="card" style="width:18rem;">
+                  <img src="img/cst.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title 
+                    and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="col-lg-4">
+                <div class="card" style="width:18rem;">
+                  <img src="img/cst.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title 
+                    and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      
+
+
+    </section>
+
+    <section> <!--Hiding elements-->
+      <h3>Hiding elements (none,block)</h3>
+      <div class="col-lg-5 col d-none d-sm-block"> <!--d-none means mobile hide-->
+        <h3>rounded pill</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded-pill ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+      
+      <div class="col-lg-5 col d-sm-none d-md-block">
+        <h3>rounded pill</h3>
+        <p class="col-5 m-5 border border-info border-3 rounded-pill ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum
+          voluptate fugit sit quia ut nobis voluptatem minus animi sed
+          temporibus facilis molestias minima assumenda natus impedit blanditiis
+          provident nesciunt veritatis magnam, id vero eligendi beatae sequi.
+          Sequi error, nostrum repellat libero ab sit omnis at a nobis deleniti
+          rerum accusamus nulla accusantium, cumque possimus assumenda in, dicta
+          earum vel officiis quibusdam quo voluptates iusto qui? Possimus, id
+          error accusantium a ipsa quas perferendis inventore consequuntur quod
+          nihil deserunt illum sunt qui quibusdam debitis hic sed est eos
+          molestiae, ex sapiente ipsum? Reprehenderit aspernatur vitae in
+          quibusdam alias id explicabo!
+        </p>
+      </div>
+      
+
+    </section>
+
+    <section><!--Lead-->
+
+    </section>
+
+
+
+    <!--The Net Ninja-->
+
+    <section> <!--Heading-->
+
+    </section>
+
+    <section> <!--justify content start center end between-->
+
+    </section>
+
+    <section> <!--Navbar-->
+      
+    </section>
+
+    <section id="intro"> <!--Grid Layout 2 small web-->
+      <h3>Grid Layout 2 small web</h3>
+
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 text-center align-md-center"> <!--If we both this line 2 times then the text will become-->
+              <h1>
+                <div class="display-2">Black-Belt</div>
+                <div class="display-5 text-muted">Your Coding Skills</div>
+              </h1>
+              <p class="lead my-4 text-muted">Lorem ipsum, dolar sit amet consectetur
+                sdipisicing elit.
+              </p>
+              <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+              <img class="img-fluid" src="img/review-2.jpg" alt="ebook cover">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+    
+    
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

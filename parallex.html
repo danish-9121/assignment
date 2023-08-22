@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="parallex.css">
+</head>
+<body>
+    <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi saepe sint eveniet sequi perferendis laboriosam voluptate suscipit culpa ut expedita atque iure veritatis magnam necessitatibus, perspiciatis, cum illum neque aperiam vitae? Deleniti cumque provident, quaerat sapiente numquam id soluta iste modi hic eligendi voluptatum atque nulla earum eaque reiciendis voluptate, laborum, ipsum vitae quia! Architecto impedit sunt omnis natus ab hic, explicabo incidunt in iste necessitatibus dolor ducimus vitae quasi nostrum, quis laborum rerum recusandae aliquid, aut iure a eos maxime deserunt unde. Ipsam, a alias! Et numquam unde adipisci, eum sint ipsam provident consectetur illum quaerat, atque, maiores omnis labore? Neque minima deleniti beatae molestiae rerum non? Unde tempora consectetur magnam amet aliquid exercitationem maiores maxime deserunt nisi, veritatis nostrum saepe laudantium labore? Consectetur aperiam illum id maiores quis, at aspernatur, ab rem porro iste culpa molestias nemo et? Nobis pariatur error officia suscipit, voluptatem tempora qui quae ipsam.
+    </p>
+
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+.parallax {
+  background-image: url('img/road1.jpg');
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<p>In this example we have turned off parallax scrolling for mobile devices. It works as expected on all desktop screens sizes.</p>
+<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<div class="parallax"></div>
+
+</body>
+</html>
