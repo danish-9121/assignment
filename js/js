@@ -8,12 +8,15 @@ js (only synchoronous js is included)
 --heap memory
 --execution context
 --lexical environment
+
 -hoisting
 -types in js
 --how to copy reference values
+
 -conditionls
 -if else else-if
 --truthy vs falsy
+
 -loops
 -for while
 --foreach forin (forof do-while) rarely used
@@ -21,6 +24,7 @@ js (only synchoronous js is included)
 -functions
 --callback fncs (asynchoronus h)
 --what is first classs fncs
+
 -params, arguments
 -arrays
 -push pop shift unshift
